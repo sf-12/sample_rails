@@ -1,0 +1,412 @@
+{
+  "status": 404,
+  "error": "Not Found",
+  "exception": "#\u003cAbstractController::ActionNotFound: The action 'index' could not be found for Api::V1::SamplesController\u003e",
+  "traces": {
+    "Application Trace": [],
+    "Framework Trace": [
+      {
+        "exception_object_id": 19960,
+        "id": 0,
+        "trace": "actionpack (6.0.4.6) lib/abstract_controller/base.rb:131:in `process'"
+      },
+      {
+        "exception_object_id": 19960,
+        "id": 1,
+        "trace": "actionpack (6.0.4.6) lib/action_controller/metal.rb:190:in `dispatch'"
+      },
+      {
+        "exception_object_id": 19960,
+        "id": 2,
+        "trace": "actionpack (6.0.4.6) lib/action_controller/metal.rb:254:in `dispatch'"
+      },
+      {
+        "exception_object_id": 19960,
+        "id": 3,
+        "trace": "actionpack (6.0.4.6) lib/action_dispatch/routing/route_set.rb:50:in `dispatch'"
+      },
+      {
+        "exception_object_id": 19960,
+        "id": 4,
+        "trace": "actionpack (6.0.4.6) lib/action_dispatch/routing/route_set.rb:33:in `serve'"
+      },
+      {
+        "exception_object_id": 19960,
+        "id": 5,
+        "trace": "actionpack (6.0.4.6) lib/action_dispatch/journey/router.rb:49:in `block in serve'"
+      },
+      {
+        "exception_object_id": 19960,
+        "id": 6,
+        "trace": "actionpack (6.0.4.6) lib/action_dispatch/journey/router.rb:32:in `each'"
+      },
+      {
+        "exception_object_id": 19960,
+        "id": 7,
+        "trace": "actionpack (6.0.4.6) lib/action_dispatch/journey/router.rb:32:in `serve'"
+      },
+      {
+        "exception_object_id": 19960,
+        "id": 8,
+        "trace": "actionpack (6.0.4.6) lib/action_dispatch/routing/route_set.rb:834:in `call'"
+      },
+      {
+        "exception_object_id": 19960,
+        "id": 9,
+        "trace": "rack (2.2.3) lib/rack/etag.rb:27:in `call'"
+      },
+      {
+        "exception_object_id": 19960,
+        "id": 10,
+        "trace": "rack (2.2.3) lib/rack/conditional_get.rb:27:in `call'"
+      },
+      {
+        "exception_object_id": 19960,
+        "id": 11,
+        "trace": "rack (2.2.3) lib/rack/head.rb:12:in `call'"
+      },
+      {
+        "exception_object_id": 19960,
+        "id": 12,
+        "trace": "activerecord (6.0.4.6) lib/active_record/migration.rb:567:in `call'"
+      },
+      {
+        "exception_object_id": 19960,
+        "id": 13,
+        "trace": "actionpack (6.0.4.6) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'"
+      },
+      {
+        "exception_object_id": 19960,
+        "id": 14,
+        "trace": "activesupport (6.0.4.6) lib/active_support/callbacks.rb:101:in `run_callbacks'"
+      },
+      {
+        "exception_object_id": 19960,
+        "id": 15,
+        "trace": "actionpack (6.0.4.6) lib/action_dispatch/middleware/callbacks.rb:26:in `call'"
+      },
+      {
+        "exception_object_id": 19960,
+        "id": 16,
+        "trace": "actionpack (6.0.4.6) lib/action_dispatch/middleware/executor.rb:14:in `call'"
+      },
+      {
+        "exception_object_id": 19960,
+        "id": 17,
+        "trace": "actionpack (6.0.4.6) lib/action_dispatch/middleware/actionable_exceptions.rb:18:in `call'"
+      },
+      {
+        "exception_object_id": 19960,
+        "id": 18,
+        "trace": "actionpack (6.0.4.6) lib/action_dispatch/middleware/debug_exceptions.rb:32:in `call'"
+      },
+      {
+        "exception_object_id": 19960,
+        "id": 19,
+        "trace": "actionpack (6.0.4.6) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'"
+      },
+      {
+        "exception_object_id": 19960,
+        "id": 20,
+        "trace": "railties (6.0.4.6) lib/rails/rack/logger.rb:37:in `call_app'"
+      },
+      {
+        "exception_object_id": 19960,
+        "id": 21,
+        "trace": "railties (6.0.4.6) lib/rails/rack/logger.rb:26:in `block in call'"
+      },
+      {
+        "exception_object_id": 19960,
+        "id": 22,
+        "trace": "activesupport (6.0.4.6) lib/active_support/tagged_logging.rb:80:in `block in tagged'"
+      },
+      {
+        "exception_object_id": 19960,
+        "id": 23,
+        "trace": "activesupport (6.0.4.6) lib/active_support/tagged_logging.rb:28:in `tagged'"
+      },
+      {
+        "exception_object_id": 19960,
+        "id": 24,
+        "trace": "activesupport (6.0.4.6) lib/active_support/tagged_logging.rb:80:in `tagged'"
+      },
+      {
+        "exception_object_id": 19960,
+        "id": 25,
+        "trace": "railties (6.0.4.6) lib/rails/rack/logger.rb:26:in `call'"
+      },
+      {
+        "exception_object_id": 19960,
+        "id": 26,
+        "trace": "actionpack (6.0.4.6) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'"
+      },
+      {
+        "exception_object_id": 19960,
+        "id": 27,
+        "trace": "actionpack (6.0.4.6) lib/action_dispatch/middleware/request_id.rb:27:in `call'"
+      },
+      {
+        "exception_object_id": 19960,
+        "id": 28,
+        "trace": "rack (2.2.3) lib/rack/runtime.rb:22:in `call'"
+      },
+      {
+        "exception_object_id": 19960,
+        "id": 29,
+        "trace": "activesupport (6.0.4.6) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'"
+      },
+      {
+        "exception_object_id": 19960,
+        "id": 30,
+        "trace": "actionpack (6.0.4.6) lib/action_dispatch/middleware/executor.rb:14:in `call'"
+      },
+      {
+        "exception_object_id": 19960,
+        "id": 31,
+        "trace": "actionpack (6.0.4.6) lib/action_dispatch/middleware/static.rb:126:in `call'"
+      },
+      {
+        "exception_object_id": 19960,
+        "id": 32,
+        "trace": "rack (2.2.3) lib/rack/sendfile.rb:110:in `call'"
+      },
+      {
+        "exception_object_id": 19960,
+        "id": 33,
+        "trace": "actionpack (6.0.4.6) lib/action_dispatch/middleware/host_authorization.rb:103:in `call'"
+      },
+      {
+        "exception_object_id": 19960,
+        "id": 34,
+        "trace": "railties (6.0.4.6) lib/rails/engine.rb:527:in `call'"
+      },
+      {
+        "exception_object_id": 19960,
+        "id": 35,
+        "trace": "puma (4.3.11) lib/puma/configuration.rb:228:in `call'"
+      },
+      {
+        "exception_object_id": 19960,
+        "id": 36,
+        "trace": "puma (4.3.11) lib/puma/server.rb:718:in `handle_request'"
+      },
+      {
+        "exception_object_id": 19960,
+        "id": 37,
+        "trace": "puma (4.3.11) lib/puma/server.rb:472:in `process_client'"
+      },
+      {
+        "exception_object_id": 19960,
+        "id": 38,
+        "trace": "puma (4.3.11) lib/puma/server.rb:328:in `block in run'"
+      },
+      {
+        "exception_object_id": 19960,
+        "id": 39,
+        "trace": "puma (4.3.11) lib/puma/thread_pool.rb:134:in `block in spawn_thread'"
+      }
+    ],
+    "Full Trace": [
+      {
+        "exception_object_id": 19960,
+        "id": 0,
+        "trace": "actionpack (6.0.4.6) lib/abstract_controller/base.rb:131:in `process'"
+      },
+      {
+        "exception_object_id": 19960,
+        "id": 1,
+        "trace": "actionpack (6.0.4.6) lib/action_controller/metal.rb:190:in `dispatch'"
+      },
+      {
+        "exception_object_id": 19960,
+        "id": 2,
+        "trace": "actionpack (6.0.4.6) lib/action_controller/metal.rb:254:in `dispatch'"
+      },
+      {
+        "exception_object_id": 19960,
+        "id": 3,
+        "trace": "actionpack (6.0.4.6) lib/action_dispatch/routing/route_set.rb:50:in `dispatch'"
+      },
+      {
+        "exception_object_id": 19960,
+        "id": 4,
+        "trace": "actionpack (6.0.4.6) lib/action_dispatch/routing/route_set.rb:33:in `serve'"
+      },
+      {
+        "exception_object_id": 19960,
+        "id": 5,
+        "trace": "actionpack (6.0.4.6) lib/action_dispatch/journey/router.rb:49:in `block in serve'"
+      },
+      {
+        "exception_object_id": 19960,
+        "id": 6,
+        "trace": "actionpack (6.0.4.6) lib/action_dispatch/journey/router.rb:32:in `each'"
+      },
+      {
+        "exception_object_id": 19960,
+        "id": 7,
+        "trace": "actionpack (6.0.4.6) lib/action_dispatch/journey/router.rb:32:in `serve'"
+      },
+      {
+        "exception_object_id": 19960,
+        "id": 8,
+        "trace": "actionpack (6.0.4.6) lib/action_dispatch/routing/route_set.rb:834:in `call'"
+      },
+      {
+        "exception_object_id": 19960,
+        "id": 9,
+        "trace": "rack (2.2.3) lib/rack/etag.rb:27:in `call'"
+      },
+      {
+        "exception_object_id": 19960,
+        "id": 10,
+        "trace": "rack (2.2.3) lib/rack/conditional_get.rb:27:in `call'"
+      },
+      {
+        "exception_object_id": 19960,
+        "id": 11,
+        "trace": "rack (2.2.3) lib/rack/head.rb:12:in `call'"
+      },
+      {
+        "exception_object_id": 19960,
+        "id": 12,
+        "trace": "activerecord (6.0.4.6) lib/active_record/migration.rb:567:in `call'"
+      },
+      {
+        "exception_object_id": 19960,
+        "id": 13,
+        "trace": "actionpack (6.0.4.6) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'"
+      },
+      {
+        "exception_object_id": 19960,
+        "id": 14,
+        "trace": "activesupport (6.0.4.6) lib/active_support/callbacks.rb:101:in `run_callbacks'"
+      },
+      {
+        "exception_object_id": 19960,
+        "id": 15,
+        "trace": "actionpack (6.0.4.6) lib/action_dispatch/middleware/callbacks.rb:26:in `call'"
+      },
+      {
+        "exception_object_id": 19960,
+        "id": 16,
+        "trace": "actionpack (6.0.4.6) lib/action_dispatch/middleware/executor.rb:14:in `call'"
+      },
+      {
+        "exception_object_id": 19960,
+        "id": 17,
+        "trace": "actionpack (6.0.4.6) lib/action_dispatch/middleware/actionable_exceptions.rb:18:in `call'"
+      },
+      {
+        "exception_object_id": 19960,
+        "id": 18,
+        "trace": "actionpack (6.0.4.6) lib/action_dispatch/middleware/debug_exceptions.rb:32:in `call'"
+      },
+      {
+        "exception_object_id": 19960,
+        "id": 19,
+        "trace": "actionpack (6.0.4.6) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'"
+      },
+      {
+        "exception_object_id": 19960,
+        "id": 20,
+        "trace": "railties (6.0.4.6) lib/rails/rack/logger.rb:37:in `call_app'"
+      },
+      {
+        "exception_object_id": 19960,
+        "id": 21,
+        "trace": "railties (6.0.4.6) lib/rails/rack/logger.rb:26:in `block in call'"
+      },
+      {
+        "exception_object_id": 19960,
+        "id": 22,
+        "trace": "activesupport (6.0.4.6) lib/active_support/tagged_logging.rb:80:in `block in tagged'"
+      },
+      {
+        "exception_object_id": 19960,
+        "id": 23,
+        "trace": "activesupport (6.0.4.6) lib/active_support/tagged_logging.rb:28:in `tagged'"
+      },
+      {
+        "exception_object_id": 19960,
+        "id": 24,
+        "trace": "activesupport (6.0.4.6) lib/active_support/tagged_logging.rb:80:in `tagged'"
+      },
+      {
+        "exception_object_id": 19960,
+        "id": 25,
+        "trace": "railties (6.0.4.6) lib/rails/rack/logger.rb:26:in `call'"
+      },
+      {
+        "exception_object_id": 19960,
+        "id": 26,
+        "trace": "actionpack (6.0.4.6) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'"
+      },
+      {
+        "exception_object_id": 19960,
+        "id": 27,
+        "trace": "actionpack (6.0.4.6) lib/action_dispatch/middleware/request_id.rb:27:in `call'"
+      },
+      {
+        "exception_object_id": 19960,
+        "id": 28,
+        "trace": "rack (2.2.3) lib/rack/runtime.rb:22:in `call'"
+      },
+      {
+        "exception_object_id": 19960,
+        "id": 29,
+        "trace": "activesupport (6.0.4.6) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'"
+      },
+      {
+        "exception_object_id": 19960,
+        "id": 30,
+        "trace": "actionpack (6.0.4.6) lib/action_dispatch/middleware/executor.rb:14:in `call'"
+      },
+      {
+        "exception_object_id": 19960,
+        "id": 31,
+        "trace": "actionpack (6.0.4.6) lib/action_dispatch/middleware/static.rb:126:in `call'"
+      },
+      {
+        "exception_object_id": 19960,
+        "id": 32,
+        "trace": "rack (2.2.3) lib/rack/sendfile.rb:110:in `call'"
+      },
+      {
+        "exception_object_id": 19960,
+        "id": 33,
+        "trace": "actionpack (6.0.4.6) lib/action_dispatch/middleware/host_authorization.rb:103:in `call'"
+      },
+      {
+        "exception_object_id": 19960,
+        "id": 34,
+        "trace": "railties (6.0.4.6) lib/rails/engine.rb:527:in `call'"
+      },
+      {
+        "exception_object_id": 19960,
+        "id": 35,
+        "trace": "puma (4.3.11) lib/puma/configuration.rb:228:in `call'"
+      },
+      {
+        "exception_object_id": 19960,
+        "id": 36,
+        "trace": "puma (4.3.11) lib/puma/server.rb:718:in `handle_request'"
+      },
+      {
+        "exception_object_id": 19960,
+        "id": 37,
+        "trace": "puma (4.3.11) lib/puma/server.rb:472:in `process_client'"
+      },
+      {
+        "exception_object_id": 19960,
+        "id": 38,
+        "trace": "puma (4.3.11) lib/puma/server.rb:328:in `block in run'"
+      },
+      {
+        "exception_object_id": 19960,
+        "id": 39,
+        "trace": "puma (4.3.11) lib/puma/thread_pool.rb:134:in `block in spawn_thread'"
+      }
+    ]
+  }
+}
